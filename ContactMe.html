@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="HomePage.html"
+          ><img
+            src="Images/Pc Anime Wallpaper 1920x1080 Full Hd Aesthetic.jpeg"
+            alt="Header Image"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="HomePage.html">Home</a></li>
+          <li><a href="AboutMe.html">About Me</a></li>
+          <li><a href="ProjectPage.html">Project / Work</a></li>
+          <li><a href="ContactMe.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="" method="post">
+      <fieldset>
+        <h2>Contact Me</h2>
+        <label for="phone">Phone number:</label><br />
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="(000 000-0000)"
+          pattern="\([2-9][0-9]{2}\) [0-9]{3}-[0-9]{4}"
+        /><br />
+
+        <label for="email">Contact Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="example@gmail.com"
+        /><br />
+
+        <label for="streetAddress">Street Address:</label><br />
+        <input
+          type="text"
+          name="streetAddress"
+          id="streetAddress"
+          required
+          placeholder="123 Main St, Apt 4B"
+        /><br />
+      </fieldset>
+      <fieldset>
+        <h2>Send Me a Message</h2>
+        <label for="firstName">Firstname:</label><br />
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          required
+          placeholder="First Name"
+        /><br />
+        <label for="lastName">Last Name:</label><br />
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          required
+          placeholder="Last Name"
+        /><br />
+        <label for="email2">Contact Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="example@gmail.com"
+        /><br />
+        <label for="info">Message</label>
+        <textarea name="moreInfoHere" id="info"></textarea><br />
+
+        <input
+          type="submit"
+          id="submit"
+          name="submit"
+          value="Submit"
+          class="form-button"
+          Form”
+        />
+      </fieldset>
+    </form>
+
+    <footer>
+      <p>&copy; 2025 - Portfolio - Iyelawari Perry Igbosi</p>
+    </footer>
+  </body>
+</html>
